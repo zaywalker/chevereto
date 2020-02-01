@@ -1,7 +1,7 @@
 ARG PHP_VERSION=apache
 FROM alpine as downloader
 
-RUN apk add --no-cache curl && \
+RUN apk add --no-cache curl
 
 FROM php:$PHP_VERSION
 
