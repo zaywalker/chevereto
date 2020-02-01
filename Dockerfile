@@ -1,12 +1,10 @@
-ARG PHP_VERSION=apache
-FROM alpine as downloader
-
-RUN apk add --no-cache curl
-
-FROM php:$PHP_VERSION
+FROM php:apache
 
 RUN apt-get update && apt-get install -y \
-        libgd-dev && \
+        curl \
+        libgd-dev \
+        libzip-dev \
+        zip && \
     docker-php-ext-configure gd --with-freetype=/usr/include/ --with-jpeg=/usr/include/ && \
     docker-php-ext-install \
         exif \
