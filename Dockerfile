@@ -21,6 +21,6 @@ VOLUME /var/www/html
 # DB connection environment variables
 ENV CHEVERETO_DB_HOST=db CHEVERETO_DB_USERNAME=chevereto CHEVERETO_DB_PASSWORD=chevereto CHEVERETO_DB_NAME=chevereto CHEVERETO_DB_PREFIX=chv_ CHEVERETO_DB_PORT=3306
 
-ADD get_installer.sh /
+COPY get_installer.sh /
 RUN chmod +x /get_installer.sh
 CMD /get_installer.sh
