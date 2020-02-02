@@ -67,7 +67,7 @@ I recommend you to use [Docker-compose](https://docs.docker.com/compose/) / [Doc
 * your_mysql_chevereto_dbname - Chevereto database name
 * your_mysql_chevereto_username - Chevereto database username
 * your_mysql_chevereto_user_password - Chevereto database user password
-* IP addresses - Chevereto access MySQL with hostname, but it's good to change for your security.
+* IP addresses - Chevereto access MySQL with service name, but it's good to change for your security.
 
 ```yaml
 version: '2.1'
