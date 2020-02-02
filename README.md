@@ -128,7 +128,7 @@ networks:
 Once `docker-compose.yaml` is ready, you can run
 
 ```bash
-docker-compose up
+docker-compose up -d 
 ```
 
 To run the service
