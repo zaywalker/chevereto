@@ -166,11 +166,3 @@ And follow installation. the values are
      - Your MySQL chevereto database user password. if you followed docker compose example, it's `your_mysql_chevereto_user_password`
 
 
-
-
-## License
-
-The docker image is released under the [MIT license](LICENSE)
-
-Please note that [Chevereto](cheveretourl) is a product of [Rodolfo Berrios](http://rodolfoberrios.com/), this project aims mainly to install web server with installer.php to use free or paid version with docker.
-
