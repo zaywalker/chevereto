@@ -24,7 +24,7 @@ Information on connection to database is provided to container via environment v
 
 [Chevereto][cheveretourl] stores images uploaded by users in `/var/www/html/images` directory within the container.
 
-In order to manage Chevereto, recommand to [mount](https://docs.docker.com/engine/tutorials/dockervolumes/#data-volumes) `/var/www/html` directory with your local directory that you don't lose your images and Chevereto HTML data if you relaunch/remove container.
+In order to manage Chevereto, recommand to [mount](https://docs.docker.com/engine/tutorials/dockervolumes/#data-volumes) `/var/www/html` directory with your local directory that you don't lose your images and Chevereto HTML data and keep updates if you relaunch/remove container.
 
 ## Max image size
 
