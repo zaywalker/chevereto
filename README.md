@@ -61,7 +61,7 @@ I recommend you to use [Docker-compose](https://docs.docker.com/compose/) / [Doc
 
 ### Docker compose
 
-> Note that you should change some value like,
+> Note that you should change some values like,
 * Asia/Seoul - timezone
 * your_mysql_root_password - MySQL root password to manage
 * your_mysql_chevereto_dbname - Chevereto database name
