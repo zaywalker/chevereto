@@ -61,6 +61,14 @@ I recommend you to use [Docker-compose](https://docs.docker.com/compose/) / [Doc
 
 ### Docker compose
 
+> Note that you should change some value like,
+* Asia/Seoul - timezone
+* your_mysql_root_password - MySQL root password to manage
+* your_mysql_chevereto_dbname - Chevereto database name
+* your_mysql_chevereto_username - Chevereto database username
+* your_mysql_chevereto_user_password - Chevereto database user password
+* IP addresses - Chevereto access MySQL with hostname, but it's good to change for your security.
+
 ```yaml
 version: '2.1'
 services:
@@ -93,10 +101,10 @@ services:
         - /your_mount/html:/var/www/html
       environment:
         # change timezone of yours and other values
-        - TZ=${TZ}
+        - TZ=Asia/Seoul
       networks:
         chevereto-network:
-          ipv4_address: ${IPV4_NETWORK:-172.23.1}.10
+          ipv4_address: 172.23.1.10
           aliases:
             - web
 
