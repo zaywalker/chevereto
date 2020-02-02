@@ -67,6 +67,7 @@ I recommend you to use [Docker-compose](https://docs.docker.com/compose/) / [Doc
 * your_mysql_chevereto_dbname - Chevereto database name
 * your_mysql_chevereto_username - Chevereto database username
 * your_mysql_chevereto_user_password - Chevereto database user password
+* /your_mount - Chevereto container's /var/www/html
 * IP addresses - Chevereto access MySQL with service name, but it's good to change for your security.
 
 ```yaml
@@ -98,7 +99,7 @@ services:
       depends_on:
         - mysql-chevereto
       volumes:
-        - /your_mount/html:/var/www/html
+        - /your_mount:/var/www/html
       environment:
         # change timezone of yours and other values
         - TZ=Asia/Seoul
