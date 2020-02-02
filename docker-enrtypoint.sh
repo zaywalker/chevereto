@@ -6,7 +6,8 @@ set -e
 chown www-data:www-data /var/www/html
 
 # Get installer.php if there is no index.php (it means already be installed chevereto)
-[[ ! -f /var/www/html/index.php ]] && curl -o /var/www/html/installer.php https://chevereto.com/download/file/installer && chown www-data:www-data /var/www/html/installer.php
+[[ ! -f /var/www/html/index.php ]] && curl -o /var/www/html/installer.php https://chevereto.com/download/file/installer
+[[ -f /var/www/html/installer.php ]] && chown www-data:www-data /var/www/html/installer.php
 
 # Run apache2 foreground
 /usr/local/bin/apache2-foreground
