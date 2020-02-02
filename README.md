@@ -4,7 +4,7 @@
 [php]: https://hub.docker.com/_/php
 [![chevereto](http://chevereto.com/app/themes/v3/img/chevereto-blue.svg)][cheveretourl]
 
-# zaywalker/chevereto - Chevereto Installer
+# zaywalker/chevereto:installer - Chevereto Installer
 
 [Chevereto][cheveretourl] is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes.
 
