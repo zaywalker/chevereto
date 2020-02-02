@@ -88,6 +88,7 @@ services:
         - MYSQL_PASSWORD=your_mysql_chevereto_user_password
       networks:
         chevereto-network:
+          # change ip address of yours
           ipv4_address: 172.23.1.20
           aliases:
             - mysql
@@ -99,12 +100,14 @@ services:
       depends_on:
         - mysql-chevereto
       volumes:
+        # change mount point of yours
         - /your_mount:/var/www/html
       environment:
-        # change timezone of yours and other values
+        # change timezone of yours
         - TZ=Asia/Seoul
       networks:
         chevereto-network:
+          # change ip address of yours
           ipv4_address: 172.23.1.10
           aliases:
             - web
@@ -118,6 +121,7 @@ networks:
     ipam:
       driver: default
       config:
+        # change subnet of yours
         - subnet: 172.23.1.0/24
 ```
 
