@@ -46,7 +46,7 @@ php_value max_input_time 300
 If you run Chevereto behind [reverse proxy](https://github.com/jc21/nginx-proxy-manager), you need to modify `/var/www/html/app/settings.php` in your container or mounted directory `/your_mount/app/setting.php`. 
 
 > Copy and paste below to end of `settings.php` will enable to show real ip.
-```
+```php
 // Use X-Forwarded-For HTTP Header to Get Visitor's Real IP Address
 if ( isset( $_SERVER['HTTP_X_FORWARDED_FOR'] ) ) {
         $http_x_headers = explode( ',', $_SERVER['HTTP_X_FORWARDED_FOR'] );
