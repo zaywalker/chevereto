@@ -1,5 +1,5 @@
 [**한국어 설명서는 여기로**](https://github.com/zaywalker/chevereto/blob/master/README_ko.md)
-
+--------
 [cheveretourl]: https://chevereto.com/
 [cheveretoinstaller]: https://chevereto.com/download/file/installer
 [cheveretogetstarted]: https://chevereto.com/get-started
