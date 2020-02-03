@@ -137,13 +137,13 @@ To run the service
 
 ```bash
 docker run --name chevereto-web -d \
-    -v /your_mount:/var/www/html/images \
+    -v /your_mount:/var/www/html \
     zaywalker/chevereto:installer
 ```
 
 ## Install chevereto
 
-When the container is up and hooked up with your proxy, you can install chevereto to visit at
+When the container is up and hooked up with your proxy, you can install chevereto with **installer.php** tail to visit at
 
 ```
 http://your.chevereto.web/installer.php
