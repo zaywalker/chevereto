@@ -1,4 +1,4 @@
-[English guide is here](README.md)
+[English guide is here](https://github.com/zaywalker/chevereto/blob/master/README_ko.md)
 
 [cheveretourl]: https://chevereto.com/
 [cheveretoinstaller]: https://chevereto.com/download/file/installer
