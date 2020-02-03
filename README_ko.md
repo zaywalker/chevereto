@@ -1,5 +1,5 @@
 [**English guide is here**](https://github.com/zaywalker/chevereto/blob/master/README.md)
-
+--------
 [cheveretourl]: https://chevereto.com/
 [cheveretoinstaller]: https://chevereto.com/download/file/installer
 [cheveretogetstarted]: https://chevereto.com/get-started
