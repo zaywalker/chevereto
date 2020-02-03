@@ -30,7 +30,7 @@ Chevereto를 관리하려면, `/var/www/html` 디렉터리를 로컬에 [마운�
 
 ## 최대 이미지 크기
 
-기본값으로 PHP의 최대 업로드 용량은 2MB로 설정되어있습니다. 이런 설정은 컨테이너의 `/var/www/html/.htaccess` 디렉터리나 마운트 된 로컬의 `/your_mount/.htaccess`를 업데이트해서 바꿀 수 있습니다.
+기본값으로 PHP의 최대 업로드 용량은 2MB로 설정되어있습니다. 이런 설정은 컨테이너의 `/var/www/html/.htaccess` 파일이나 마운트 된 로컬의 `/your_mount/.htaccess`를 업데이트해서 바꿀 수 있습니다.
 
 > 기본값으로 Chevereto에서도 업로드 용량을 10MB로 제한하고 있는 것에 유의하세요. 따라서 `.htaccess`를 편집해도 Chevereto 설정 페이지 (CHEVERETO_URL/dashboard/settings/image-upload)에서 설정해줘야 합니다.
 
