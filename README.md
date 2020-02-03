@@ -52,7 +52,6 @@ If you run Chevereto behind [reverse proxy](https://github.com/jc21/nginx-proxy-
 // Use X-Forwarded-For HTTP Header to Get Visitor's Real IP Address
 if ( isset( $_SERVER['HTTP_X_FORWARDED_FOR'] ) ) {
         $http_x_headers = explode( ',', $_SERVER['HTTP_X_FORWARDED_FOR'] );
-
         $_SERVER['REMOTE_ADDR'] = $http_x_headers[0];
 }
 ```
