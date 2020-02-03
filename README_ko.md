@@ -52,7 +52,6 @@ Chevereto를 [역방향 프락시](https://github.com/jc21/nginx-proxy-manager)�
 // Use X-Forwarded-For HTTP Header to Get Visitor's Real IP Address
 if ( isset( $_SERVER['HTTP_X_FORWARDED_FOR'] ) ) {
         $http_x_headers = explode( ',', $_SERVER['HTTP_X_FORWARDED_FOR'] );
-
         $_SERVER['REMOTE_ADDR'] = $http_x_headers[0];
 }
 ```
