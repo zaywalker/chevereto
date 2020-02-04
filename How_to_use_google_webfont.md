@@ -2,7 +2,7 @@ You can visit to see Google web fonts [here](https://fonts.google.com/)
 
 Go to **Custom CSS code** @ **Dashboard > Settings > Theme** and enter some codes.
 
->If you use Nanum Gothic (https://fonts.google.com/specimen/Nanum+Gothic), the code will be like below.
+>If you want to use Nanum Gothic (https://fonts.google.com/specimen/Nanum+Gothic), the code will be like below.
 
 >Note that if the font name has space, you should use wrap them in single quotes.
 
