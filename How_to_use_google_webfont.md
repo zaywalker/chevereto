@@ -1,6 +1,6 @@
 You can take a look at Google web fonts [here](https://fonts.google.com/)
 
-Go to **Custom CSS code** @ **Dashboard > Settings > Theme** and enter some codes.
+In order to change your Chevereto font, go to **Custom CSS code** @ **Dashboard > Settings > Theme** and enter some codes.
 
 >If you want to use Nanum Gothic (https://fonts.google.com/specimen/Nanum+Gothic), the code will be like below.
 
