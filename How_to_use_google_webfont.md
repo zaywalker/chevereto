@@ -1,4 +1,4 @@
-You can visit to see Google web fonts [here](https://fonts.google.com/)
+You can take a look at Google web fonts [here](https://fonts.google.com/)
 
 Go to **Custom CSS code** @ **Dashboard > Settings > Theme** and enter some codes.
 
