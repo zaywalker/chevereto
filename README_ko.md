@@ -24,7 +24,7 @@
 
 ## 저장소 유지
 
-Chevereto를 관리하려면, `/var/www/html` 디렉터리를 로컬에 [마운트](https://docs.docker.com/engine/tutorials/dockervolumes/#data-volumes)하는 것을 권장합니다. 마운트된 로컬 디렉터리로 컨테이너를 다시 구동하거나 재설치를 해도 이미지와 Chevereto HTML 데이터 그리고 업데이트(또는 입맛에 맞게 개조한 HTML 데이터등)를 유지할 수 있습니다.
+[Chevereto][cheveretourl]를 관리하려면, `/var/www/html` 디렉터리를 로컬에 [마운트](https://docs.docker.com/engine/tutorials/dockervolumes/#data-volumes)하는 것을 권장합니다. 마운트된 로컬 디렉터리로 컨테이너를 다시 구동하거나 재설치를 해도 이미지와 Chevereto HTML 데이터 그리고 업데이트(또는 입맛에 맞게 개조한 HTML 데이터등)를 유지할 수 있습니다.
 
 사용자가 업로드한 이미지는 컨테이너의 `/var/www/html/images` 디렉터리나 마운트 된 로컬의 `/your_mount/images` 디렉터리에서 찾을 수 있습니다.
 
