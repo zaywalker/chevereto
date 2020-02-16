@@ -63,12 +63,12 @@ Chevererto를 MySQL과 바인딩해서 서비스하기 위해 [Docker-compose](h
 ### Docker compose
 
 > 몇가지 값을 바꿔야 하는것에 유의하세요,
-* Asia/Seoul - 시간대
-* your_mysql_root_password - MySQL 관리를 위한 root 패스워드
-* your_mysql_chevereto_dbname - Chevereto 데이터베이스 이름
-* your_mysql_chevereto_username - Chevereto 데이터베이스의 사용자 이름
-* your_mysql_chevereto_user_password - Chevereto 데이터베이스의 사용자 비밀번호
-* /your_mount - Chevereto 컨테이너의 /var/www/html
+* `Asia/Seoul` - 시간대
+* `your_mysql_root_password` - MySQL 관리를 위한 root 패스워드
+* `your_mysql_chevereto_dbname` - Chevereto 데이터베이스 이름
+* `your_mysql_chevereto_username` - Chevereto 데이터베이스의 사용자 이름
+* `your_mysql_chevereto_user_password` - Chevereto 데이터베이스의 사용자 비밀번호
+* `/your_mount` - Chevereto 컨테이너의 `/var/www/html`
 * IP addresses - Chevereto 는 MySQL 에 서비스 이름으로 연결합니다만 보안을 위해서 바꿔주는것이 좋습니다.
 
 ```yaml
