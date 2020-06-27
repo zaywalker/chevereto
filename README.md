@@ -10,7 +10,7 @@
 
 [Chevereto][cheveretourl] is a powerful and fast image hosting script that allows you to create your very own full featured image hosting website in just minutes.
 
-This offers to install with [installer.php][cheveretoinstaller] at [Chevereto Get Started][cheveretogetstarted] page on [php 7.4 and apache2][php].
+This offers to install with [installer.php][cheveretoinstaller] at [Chevereto Get Started][cheveretogetstarted] page on [php 7.4 and apache2][php] and support free and paid version.
 
 ## Supported tags
 
