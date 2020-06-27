@@ -10,7 +10,7 @@
 
 [Chevereto][cheveretourl]는 강력하고 빠른 이미지 호스팅 웹서버로 다양한 기능의 이미지 호스팅 웹사이트를 단 몇 분이면 만들 수 있습니다. 
 
-이 도커 파일은 [Chevereto Get Started][cheveretogetstarted] 페이지에 있는 [installer.php][cheveretoinstaller] 를 이용해서 [php 7.4 and apache2][php] 기반의 도커 베이스에 올립니다.
+이 도커 파일은 [Chevereto Get Started][cheveretogetstarted] 페이지에 있는 [installer.php][cheveretoinstaller] 를 이용해서 [php 7.4 and apache2][php] 기반의 도커 베이스에 올립니다. 무료, 유료버전을 지원합니다.
 
 ## 지원하는 태그
 
