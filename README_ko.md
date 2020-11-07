@@ -119,6 +119,8 @@ volumes:
 networks:
   chevereto-network:
     driver: bridge
+    driver_opts:
+      com.docker.network.bridge.name: br-chevereto
     ipam:
       driver: default
       config:
