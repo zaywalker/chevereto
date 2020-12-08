@@ -45,7 +45,7 @@ php_value max_input_time 300
 
 ## Real-ip behind [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy)
 
-If you run Chevereto behind [reverse proxy](https://github.com/jc21/nginx-proxy-manager), you need to modify `/var/www/html/app/settings.php` in your container or mounted directory `/your_mount/app/setting.php`. 
+If you run Chevereto behind [reverse proxy](https://github.com/jc21/nginx-proxy-manager), you need to modify `/var/www/html/app/settings.php` in your container or mounted directory `/your_mount/app/settings.php`. 
 
 > Copy and paste below to end of `settings.php` will enable to show real ip.
 ```php
