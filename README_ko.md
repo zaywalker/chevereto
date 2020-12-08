@@ -45,7 +45,7 @@ php_value max_input_time 300
 
 ## [역방향 프락시](https://en.wikipedia.org/wiki/Reverse_proxy)와 리얼 IP
 
-Chevereto를 [역방향 프락시](https://github.com/jc21/nginx-proxy-manager)를 통해 서비스한다면, 컨테이너의 `/var/www/html/app/settings.php`파일이나 마운트 된 로컬의 `/your_mount/app/setting.php` 파일을 편집해줘야 합니다. 
+Chevereto를 [역방향 프락시](https://github.com/jc21/nginx-proxy-manager)를 통해 서비스한다면, 컨테이너의 `/var/www/html/app/settings.php`파일이나 마운트 된 로컬의 `/your_mount/app/settings.php` 파일을 편집해줘야 합니다. 
 
 > 아래의 코드를 `settings.php` 하단부에 추가하면 리얼 IP를 볼 수 있습니다.
 ```php
