@@ -76,7 +76,7 @@ version: '2.1'
 services:
     mysql-chevereto:
       container_name: chevereto-mysql
-      image: mariadb:10.2
+      image: mariadb:10.5
       restart: always
       volumes:
         - mysql-vol-1:/var/lib/mysql/
