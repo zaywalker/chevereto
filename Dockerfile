@@ -8,6 +8,7 @@ LABEL maintainer "Jaeyoon KIM <zaywalker@gmail.com>"
 RUN apt-get update && apt-get install -y \
         curl \
         libgd-dev \
+        libwebp-dev \
         libzip-dev \
         zip && \
     docker-php-ext-configure gd --with-freetype=/usr/include/ --with-jpeg=/usr/include/ && \
