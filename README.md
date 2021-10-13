@@ -1,5 +1,9 @@
 [**한국어 설명서는 여기로**](https://github.com/zaywalker/chevereto/blob/master/README_ko.md)
 --------
+
+**Due to official version and V4 released, this repo will be shutdown 1st NOV 2021. Please use [the official one](https://hub.docker.com/r/chevereto/chevereto). If you consider to upgrade V4, you can find [here](https://v4-docs.chevereto.com/get-started/installation.html#using-docker).**
+--------
+
 [cheveretourl]: https://chevereto.com/
 [cheveretoinstaller]: https://chevereto.com/download/file/installer
 [cheveretogetstarted]: https://chevereto.com/get-started
