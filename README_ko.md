@@ -1,5 +1,8 @@
 [**English guide is here**](https://github.com/zaywalker/chevereto/blob/master/README.md)
 --------
+**도커 공식 이미지와 V4 버전이 출시됨에 따라 이 리포는 2021년 11월 1일 내릴 예정입니다. 공식 이미지는 [여기](https://hub.docker.com/r/chevereto/chevereto) 받을 수 있으며, V4로 업그레이드는 [여기](https://v4-docs.chevereto.com/get-started/installation.html#using-docker)서 찾을 수 있습니다.**
+--------
+
 [cheveretourl]: https://chevereto.com/
 [cheveretoinstaller]: https://chevereto.com/download/file/installer
 [cheveretogetstarted]: https://chevereto.com/get-started
